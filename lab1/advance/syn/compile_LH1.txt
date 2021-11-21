@@ -1,0 +1,122 @@
+
+Information: There are 165 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'IIR_LH_DW01_sub_8'
+  Processing 'IIR_LH_DW_mult_tc_28_0_0'
+  Processing 'IIR_LH_DW_mult_tc_34_0'
+  Processing 'IIR_LH_DW_mult_tc_32_0_0'
+  Processing 'IIR_LH_DW_mult_tc_31_0_0'
+  Processing 'IIR_LH_DW01_sub_4'
+  Processing 'IIR_LH_DW01_sub_3'
+  Processing 'IIR_LH_DW_mult_tc_29_0_0'
+  Processing 'IIR_LH_DW_mult_tc_21_0_0'
+  Processing 'IIR_LH_DW_mult_tc_22_0_0'
+  Processing 'IIR_LH_DW_mult_tc_30_0_0'
+  Processing 'IIR_LH_DW_mult_tc_26_0_0'
+  Processing 'IIR_LH_DW_mult_tc_45_0'
+  Processing 'IIR_LH_DW_mult_tc_35'
+  Processing 'IIR_LH_DW01_sub_2'
+  Processing 'IIR_LH_DW01_add_4'
+  Processing 'IIR_LH_DW01_add_2'
+  Processing 'IIR_LH_DW01_add_1'
+  Processing 'reg_N1_1'
+  Processing 'reg_N1_3'
+  Processing 'reg_N8'
+  Processing 'myregister_N8_1'
+  Processing 'myregister_N10_1'
+  Processing 'myregister_N9'
+  Processing 'myregister_N8_2'
+  Processing 'myregister_N8_3'
+  Processing 'myregister_N10_2'
+  Processing 'myregister_N8_4'
+  Processing 'myregister_N8_5'
+  Processing 'myregister_N8_6'
+  Processing 'myregister_N8_7'
+  Processing 'myregister_N10_0'
+  Processing 'myregister_N8_8'
+  Processing 'myregister_N8_9'
+  Processing 'myregister_N8_10'
+  Processing 'myregister_N8_11'
+  Processing 'myregister_N8_12'
+  Processing 'reg_N1_0'
+  Processing 'myregister_N8_13'
+  Processing 'myregister_N8_0'
+  Processing 'IIR_LH'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:20    6787.3      0.00       0.0     150.2                          
+    0:00:20    6787.3      0.00       0.0     150.2                          
+    0:00:20    6787.3      0.00       0.0     150.2                          
+    0:00:20    6787.3      0.00       0.0     150.2                          
+    0:00:20    6787.3      0.00       0.0     150.2                          
+    0:00:27    4748.6      0.00       0.0       0.0                          
+    0:00:27    4748.6      0.00       0.0       0.0                          
+    0:00:28    4748.6      0.00       0.0       0.0                          
+    0:00:28    4748.6      0.00       0.0       0.0                          
+    0:00:28    4748.6      0.00       0.0       0.0                          
+    0:00:28    4748.6      0.00       0.0       0.0                          
+    0:00:28    4748.6      0.00       0.0       0.0                          
+    0:00:28    4748.6      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:28    4748.6      0.00       0.0       0.0                          
+    0:00:28    4748.6      0.00       0.0       0.0                          
+    0:00:29    4746.0      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:29    4746.0      0.00       0.0       0.0                          
+    0:00:29    4746.0      0.00       0.0       0.0                          
+    0:00:30    4742.8      0.00       0.0       0.0                          
+    0:00:30    4740.7      0.00       0.0       0.0                          
+    0:00:30    4739.6      0.00       0.0       0.0                          
+    0:00:30    4739.1      0.00       0.0       0.0                          
+    0:00:30    4738.5      0.00       0.0       0.0                          
+    0:00:30    4738.5      0.00       0.0       0.0                          
+    0:00:30    4738.5      0.00       0.0       0.0                          
+    0:00:30    4719.9      0.00       0.0       0.0                          
+    0:00:30    4719.9      0.00       0.0       0.0                          
+    0:00:30    4719.9      0.00       0.0       0.0                          
+    0:00:30    4719.9      0.00       0.0       0.0                          
+    0:00:30    4719.9      0.00       0.0       0.0                          
+    0:00:30    4719.9      0.00       0.0       0.0                          
+    0:00:31    4719.9      0.00       0.0       0.0                          
+Loading db file '/software/dk/nangate45/synopsys/NangateOpenCellLibrary_typical_ecsm_nowlm.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1

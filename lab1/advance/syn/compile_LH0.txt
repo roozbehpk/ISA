@@ -1,0 +1,331 @@
+
+Information: There are 152 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'IIR_LH_DW_mult_tc_45'
+  Processing 'IIR_LH_DW01_sub_14'
+  Processing 'IIR_LH_DW_mult_tc_35'
+  Processing 'IIR_LH_DW_mult_tc_32'
+  Processing 'IIR_LH_DW_mult_tc_31'
+  Processing 'IIR_LH_DW_mult_tc_34'
+  Processing 'IIR_LH_DW_mult_tc_28'
+  Processing 'IIR_LH_DW01_sub_10'
+  Processing 'IIR_LH_DW01_sub_9'
+  Processing 'IIR_LH_DW_mult_tc_29'
+  Processing 'IIR_LH_DW_mult_tc_22'
+  Processing 'IIR_LH_DW_mult_tc_21'
+  Processing 'IIR_LH_DW_mult_tc_30'
+  Processing 'IIR_LH_DW_mult_tc_26'
+  Processing 'IIR_LH_DW01_sub_2'
+  Processing 'IIR_LH_DW01_add_4'
+  Processing 'IIR_LH_DW01_add_2'
+  Processing 'IIR_LH_DW01_add_1'
+  Processing 'reg_N1_1'
+  Processing 'reg_N8'
+  Processing 'myregister_N8_1'
+  Processing 'myregister_N10_1'
+  Processing 'myregister_N9'
+  Processing 'myregister_N8_2'
+  Processing 'myregister_N8_3'
+  Processing 'myregister_N10_2'
+  Processing 'myregister_N8_4'
+  Processing 'myregister_N8_5'
+  Processing 'myregister_N8_6'
+  Processing 'myregister_N8_7'
+  Processing 'myregister_N10_0'
+  Processing 'myregister_N8_8'
+  Processing 'myregister_N8_9'
+  Processing 'myregister_N8_10'
+  Processing 'myregister_N8_11'
+  Processing 'myregister_N8_12'
+  Processing 'reg_N1_0'
+  Processing 'myregister_N8_13'
+  Processing 'myregister_N8_0'
+  Processing 'IIR_LH'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+Information: compile falsified 189 infeasible paths. (OPT-1720)
+  Mapping Optimization (Phase 2)
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:49    6310.1      2.20     170.8       1.2                          
+    0:00:49    6310.1      2.20     170.8       1.2                          
+    0:00:49    6310.1      2.20     170.8       1.2                          
+    0:00:50    6309.8      2.20     170.7       1.2                          
+    0:00:50    6309.8      2.20     170.7       1.2                          
+    0:00:55    4876.8      2.21     164.8       0.0                          
+    0:00:56    4863.0      2.21     164.7       0.0                          
+    0:00:56    4863.3      2.21     164.7       0.0                          
+    0:00:56    4863.8      2.20     164.6       0.0                          
+    0:00:57    4863.8      2.20     164.6       0.0                          
+    0:00:57    4863.8      2.20     164.6       0.0                          
+    0:00:57    4863.8      2.20     164.6       0.0                          
+    0:00:57    4863.8      2.20     164.6       0.0                          
+    0:00:57    4863.8      2.20     164.6       0.0                          
+    0:00:57    4863.8      2.20     164.6       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:57    4863.8      2.20     164.6       0.0                          
+    0:00:58    4873.9      2.17     164.1       0.0 REG_Z3/DATA_OUT_reg[5]/D 
+    0:00:58    4885.4      2.15     163.7       3.1 REG_Z3/DATA_OUT_reg[5]/D 
+    0:00:58    4889.3      2.14     163.8       3.1 REG_Z3/DATA_OUT_reg[5]/D 
+    0:00:59    4893.6      2.14     163.7       3.1 REG_Z4/DATA_OUT_reg[5]/D 
+    0:00:59    4900.5      2.13     163.6       3.1 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:00    4906.9      2.12     163.4       3.1 REG_Z8/DATA_OUT_reg[5]/D 
+    0:01:00    4913.3      2.11     163.3       4.7 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:00    4916.5      2.10     163.1       4.7 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:00    4920.5      2.10     162.9       4.7 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:01    4932.2      2.08     162.7       4.7 REG_Z3/DATA_OUT_reg[6]/D 
+    0:01:01    4933.0      2.08     162.6       4.7 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:01    4937.8      2.07     162.3       4.7 REG_Z3/DATA_OUT_reg[6]/D 
+    0:01:02    4942.3      2.07     162.1       4.7 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:03    4948.4      2.06     161.7       4.7 REG_Z5/DATA_OUT_reg[5]/D 
+    0:01:03    4960.1      2.05     161.5      21.4 REG_Z3/DATA_OUT_reg[6]/D 
+    0:01:04    4963.3      2.05     161.5      21.4 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:05    4965.4      2.05     161.4      21.4 REG_Z8/DATA_OUT_reg[7]/D 
+    0:01:05    4966.0      2.04     161.4      21.4 REG_Z3/DATA_OUT_reg[6]/D 
+    0:01:05    4974.2      2.03     160.9      21.4 REG_Z5/DATA_OUT_reg[7]/D 
+    0:01:06    4978.7      2.03     160.9      21.4 REG_Z8/DATA_OUT_reg[7]/D 
+    0:01:06    4978.7      2.02     160.8      21.4 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:07    4986.2      2.02     160.6      21.4 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:08    4991.0      2.01     160.6      21.4 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:09    5005.3      2.01     160.3      24.4 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:10    5011.7      2.01     160.3      24.4 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:10    5016.2      2.00     160.2      24.4 REG_Z5/DATA_OUT_reg[7]/D 
+    0:01:10    5020.5      2.00     160.1      24.4 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:11    5015.2      2.00     160.1      19.8 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:11    5016.8      2.00     160.1      19.8 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:11    5018.4      1.99     159.9      19.8 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:11    5021.5      1.99     159.8      19.8 REG_Z7/DATA_OUT_reg[5]/D 
+    0:01:12    5027.4      1.99     159.7      19.8 REG_Z5/DATA_OUT_reg[5]/D 
+    0:01:12    5027.9      1.98     159.6      19.8 REG_Z5/DATA_OUT_reg[7]/D 
+    0:01:13    5030.3      1.98     159.5      19.8 REG_Z8/DATA_OUT_reg[5]/D 
+    0:01:13    5031.4      1.98     159.5      19.8 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:13    5032.7      1.98     159.5      19.8 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:14    5035.1      1.98     159.4      19.8 REG_Z8/DATA_OUT_reg[6]/D 
+    0:01:14    5038.3      1.98     159.4      19.8 REG_Z8/DATA_OUT_reg[6]/D 
+    0:01:14    5039.1      1.97     159.3      19.8 REG_Z7/DATA_OUT_reg[5]/D 
+    0:01:15    5039.9      1.97     159.2      19.8 REG_Z5/DATA_OUT_reg[7]/D 
+    0:01:15    5039.6      1.97     159.2      19.8 REG_Z8/DATA_OUT_reg[7]/D 
+    0:01:16    5051.9      1.96     158.9      22.8 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:16    5053.2      1.96     158.8      22.8 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:16    5053.2      1.96     158.8      22.8 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:17    5053.7      1.96     158.8      22.8 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:17    5054.8      1.96     158.8      22.8 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:18    5056.4      1.96     158.8      22.8 REG_Z5/DATA_OUT_reg[7]/D 
+    0:01:18    5059.6      1.96     158.8      22.8 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:19    5063.3      1.96     158.8      22.8 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:19    5062.5      1.96     158.7      22.8 REG_Z8/DATA_OUT_reg[7]/D 
+    0:01:20    5064.6      1.96     158.6      22.8 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:21    5068.6      1.96     158.6      22.8 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:21    5069.7      1.96     158.6      22.8 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:22    5077.7      1.95     158.5      22.8 REG_Z8/DATA_OUT_reg[6]/D 
+    0:01:23    5077.7      1.95     158.5      22.8 REG_Z8/DATA_OUT_reg[7]/D 
+    0:01:24    5078.7      1.95     158.5      22.8 REG_Z5/DATA_OUT_reg[7]/D 
+    0:01:24    5079.5      1.95     158.5      22.8 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:25    5080.9      1.95     158.5      22.8 REG_Z5/DATA_OUT_reg[7]/D 
+    0:01:25    5082.2      1.95     158.4      22.8 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:25    5083.5      1.95     158.4      22.8 REG_Z8/DATA_OUT_reg[7]/D 
+    0:01:27    5084.1      1.95     158.4      22.8 REG_Z5/DATA_OUT_reg[7]/D 
+    0:01:27    5084.9      1.95     158.4      22.8 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:27    5085.1      1.95     158.4      22.8 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:28    5085.4      1.95     158.4      22.8 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:28    5085.4      1.95     158.4      22.8 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:28    5091.2      1.95     158.3      22.8 REG_Z7/DATA_OUT_reg[6]/D 
+    0:01:29    5094.7      1.95     158.3      22.8 REG_Z5/DATA_OUT_reg[7]/D 
+    0:01:29    5095.5      1.95     158.3      22.8 REG_Z5/DATA_OUT_reg[7]/D 
+    0:01:29    5098.7      1.95     158.2      22.8 REG_Z7/DATA_OUT_reg[6]/D 
+    0:01:30    5097.6      1.95     158.2      22.8 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:30    5106.7      1.94     158.2      25.9 REG_Z4/DATA_OUT_reg[7]/D 
+    0:01:30    5112.3      1.94     158.2      25.9 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:31    5118.6      1.94     158.1      25.9 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:31    5119.4      1.94     158.0      25.9 REG_Z8/DATA_OUT_reg[5]/D 
+    0:01:32    5120.2      1.94     158.0      25.9 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:32    5133.0      1.94     158.0      28.9 REG_Z4/DATA_OUT_reg[7]/D 
+    0:01:33    5137.8      1.94     157.9      28.9 REG_Z4/DATA_OUT_reg[7]/D 
+    0:01:33    5141.8      1.94     157.9      28.9 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:33    5141.8      1.94     157.9      28.9 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:34    5147.6      1.93     157.9      28.9 REG_Z4/DATA_OUT_reg[7]/D 
+    0:01:34    5151.1      1.93     157.8      28.9 REG_Z8/DATA_OUT_reg[6]/D 
+    0:01:34    5154.5      1.93     157.8      28.9 REG_Z5/DATA_OUT_reg[5]/D 
+    0:01:35    5165.5      1.93     157.7      28.9 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:35    5167.3      1.93     157.7      28.9 REG_Z4/DATA_OUT_reg[7]/D 
+    0:01:36    5168.6      1.93     157.7      28.9 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:36    5173.4      1.93     157.7      28.9 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:37    5176.1      1.93     157.6      28.9 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:37    5178.2      1.93     157.6      28.9 REG_Z8/DATA_OUT_reg[6]/D 
+    0:01:38    5178.2      1.93     157.6      28.9 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:40    5177.7      1.93     157.5      28.9 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:42    5180.6      1.92     157.5      28.9                          
+    0:01:42    5180.6      1.92     157.5      28.9                          
+
+
+  Beginning Design Rule Fixing  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:01:42    5180.6      1.92     157.5      28.9                          
+    0:01:42    5140.7      1.92     157.4       0.0 REG_Z7/DATA_OUT_reg[6]/D 
+    0:01:43    5140.4      1.92     157.4       0.0 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:44    5141.5      1.92     157.4       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:44    5142.0      1.92     157.4       0.0 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:44    5142.8      1.92     157.4       0.0 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:45    5144.4      1.92     157.3       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:45    5145.5      1.92     157.3       0.0 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:46    5152.2      1.92     157.2       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:46    5153.7      1.92     157.2       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:47    5160.9      1.92     157.2       3.1 REG_Z5/DATA_OUT_reg[7]/D 
+    0:01:48    5161.5      1.92     157.2       3.1 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:48    5153.7      1.92     157.2       0.0 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:49    5154.3      1.92     157.2       0.0 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:49    5162.5      1.92     157.2       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:49    5163.1      1.92     157.2       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:50    5163.1      1.92     157.2       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:51    5166.8      1.91     157.1       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:51    5168.6      1.91     157.1       0.0 REG_Z4/DATA_OUT_reg[7]/D 
+    0:01:52    5168.6      1.91     157.1       0.0 REG_Z4/DATA_OUT_reg[7]/D 
+    0:01:53    5170.0      1.91     157.1       0.0 REG_Z5/DATA_OUT_reg[7]/D 
+    0:01:53    5172.4      1.91     157.1       0.0 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:54    5173.7      1.91     157.1       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:54    5175.3      1.91     157.0       0.0 REG_Z5/DATA_OUT_reg[7]/D 
+    0:01:55    5176.4      1.91     157.0       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:55    5178.8      1.91     157.0       0.0 REG_Z5/DATA_OUT_reg[7]/D 
+    0:01:56    5179.8      1.91     157.0       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:56    5180.6      1.91     157.0       0.0 REG_Z4/DATA_OUT_reg[6]/D 
+    0:01:56    5179.6      1.91     157.0       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:01:57    5183.5      1.91     157.0       0.0 REG_Z4/DATA_OUT_reg[5]/D 
+    0:01:57    5185.4      1.91     156.9       0.0 REG_Z4/DATA_OUT_reg[5]/D 
+    0:01:59    5183.5      1.91     156.9       0.0                          
+    0:01:59    5183.8      1.91     156.9       0.0                          
+    0:02:00    5186.5      1.91     156.9       0.0                          
+    0:02:00    5186.7      1.91     156.8       0.0                          
+    0:02:01    5184.9      1.91     156.8       0.0                          
+    0:02:01    5185.7      1.91     156.8       0.0                          
+    0:02:02    5185.9      1.91     156.8       0.0                          
+    0:02:02    5185.4      1.91     156.8       0.0                          
+    0:02:02    5187.5      1.91     156.8       0.0                          
+    0:02:03    5189.4      1.91     156.8       0.0                          
+    0:02:03    5190.5      1.91     156.7       0.0                          
+    0:02:04    5191.8      1.91     156.7       0.0                          
+    0:02:04    5190.7      1.91     156.7       0.0                          
+    0:02:04    5190.2      1.91     156.7       0.0                          
+    0:02:04    5193.4      1.91     156.7       0.0                          
+    0:02:05    5193.4      1.91     156.7       0.0                          
+    0:02:05    5193.6      1.91     156.6       0.0                          
+    0:02:06    5192.9      1.91     156.6       0.0                          
+    0:02:06    5193.9      1.91     156.6       0.0                          
+    0:02:07    5194.2      1.91     156.6       0.0                          
+    0:02:07    5195.0      1.91     156.5       0.0                          
+    0:02:07    5194.7      1.91     156.5       0.0                          
+    0:02:07    5197.6      1.91     156.4       0.0                          
+    0:02:07    5197.1      1.91     156.4       0.0                          
+    0:02:07    5195.5      1.91     156.4       0.0                          
+    0:02:08    5198.4      1.91     156.3       0.0                          
+    0:02:08    5199.2      1.91     156.3       0.0                          
+    0:02:08    5199.2      1.91     156.3       0.0                          
+    0:02:08    5199.5      1.91     156.3       0.0                          
+    0:02:08    5200.0      1.91     156.3       0.0                          
+    0:02:09    5200.8      1.91     156.2       0.0                          
+    0:02:09    5201.4      1.91     156.2       0.0                          
+    0:02:09    5201.4      1.91     156.2       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:02:09    5201.4      1.91     156.2       0.0                          
+    0:02:09    5201.4      1.91     156.2       0.0                          
+    0:02:10    5177.2      1.91     156.3       0.0                          
+    0:02:10    5175.3      1.91     156.3       0.0                          
+    0:02:10    5174.2      1.91     156.3       0.0                          
+    0:02:10    5173.2      1.91     156.3       0.0                          
+    0:02:10    5172.1      1.91     156.3       0.0                          
+    0:02:10    5172.1      1.91     156.3       0.0                          
+    0:02:10    5172.1      1.91     156.3       0.0                          
+    0:02:10    5160.9      1.91     156.3       0.0                          
+    0:02:10    5151.1      1.91     156.3       0.0                          
+    0:02:10    5151.1      1.91     156.3       0.0                          
+    0:02:10    5151.1      1.91     156.3       0.0                          
+    0:02:10    5151.1      1.91     156.3       0.0                          
+    0:02:10    5151.1      1.91     156.3       0.0                          
+    0:02:10    5151.1      1.91     156.3       0.0                          
+    0:02:11    5151.9      1.91     156.3       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:02:12    5152.7      1.91     156.4       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:02:13    5152.4      1.90     156.4       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:02:14    5151.6      1.90     156.4       0.0                          
+    0:02:14    5145.2      1.90     156.4       0.0                          
+    0:02:15    5140.2      1.90     156.4       0.0                          
+    0:02:15    5136.2      1.90     156.4       0.0                          
+    0:02:16    5133.3      1.90     156.4       0.0                          
+    0:02:17    5129.0      1.90     156.3       0.0                          
+    0:02:17    5130.1      1.90     156.3       0.0                          
+    0:02:18    5132.5      1.90     156.3       0.0                          
+    0:02:18    5133.3      1.90     156.3       0.0                          
+    0:02:19    5133.3      1.90     156.3       0.0                          
+    0:02:19    5133.5      1.90     156.2       0.0                          
+    0:02:19    5133.5      1.90     156.2       0.0                          
+    0:02:20    5136.7      1.90     156.1       0.0                          
+    0:02:20    5137.0      1.90     156.1       0.0                          
+    0:02:20    5138.1      1.90     156.1       0.0                          
+    0:02:21    5140.7      1.90     156.0       0.0                          
+    0:02:21    5141.5      1.90     156.0       0.0                          
+    0:02:21    5142.0      1.90     156.0       0.0                          
+    0:02:21    5142.3      1.90     156.0       0.0                          
+    0:02:22    5143.1      1.90     156.0       0.0                          
+    0:02:22    5146.6      1.90     155.8       0.0                          
+    0:02:22    5146.6      1.90     155.8       0.0                          
+    0:02:22    5149.0      1.90     155.7       0.0                          
+    0:02:23    5147.4      1.90     155.7       0.0                          
+    0:02:24    5148.4      1.90     155.7       0.0                          
+    0:02:24    5148.4      1.90     155.7       0.0                          
+    0:02:25    5149.0      1.90     155.7       0.0                          
+    0:02:25    5149.0      1.90     155.6       0.0                          
+    0:02:26    5149.5      1.90     155.6       0.0                          
+    0:02:26    5151.1      1.90     155.6       0.0                          
+    0:02:27    5151.9      1.90     155.7       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:02:28    5152.7      1.90     155.9       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:02:29    5156.1      1.90     155.9       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:02:30    5158.8      1.90     155.9       0.0 REG_Z4/DATA_OUT_reg[6]/D 
+    0:02:30    5160.7      1.90     156.0       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:02:31    5164.1      1.90     156.0       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:02:31    5166.3      1.90     156.0       0.0 REG_Z4/DATA_OUT_reg[6]/D 
+    0:02:32    5166.8      1.89     156.0       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:02:33    5168.4      1.89     156.0       0.0 REG_Z3/DATA_OUT_reg[7]/D 
+    0:02:35    5171.8      1.89     156.0       0.0                          
+Loading db file '/software/dk/nangate45/synopsys/NangateOpenCellLibrary_typical_ecsm_nowlm.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1
