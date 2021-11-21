@@ -1,0 +1,42 @@
+Running PRESTO HDLC
+Warning:  ../src/IIR_filter.vhd:42: The initial value for signal 'OUTPUT' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:42: The initial value for signal 'V_OUT' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:42: The initial value for signal 'VOUT_S' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:42: The initial value for signal 'VIN_S' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:42: The initial value for signal 'EN' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:45: The initial value for signal 'T0' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:46: The initial value for signal 'T1' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:47: The initial value for signal 'T2' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:48: The initial value for signal 'D1' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:48: The initial value for signal 'D2' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:48: The initial value for signal 'D3' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:48: The initial value for signal 'D4' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:48: The initial value for signal 'D5' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:49: The initial value for signal 'zeros' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:50: The initial value for signal 'FF' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:54: The initial value for signal 'Z1_OUT' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:54: The initial value for signal 'Z2_OUT' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:55: The initial value for signal 'M1' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:55: The initial value for signal 'M2' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:55: The initial value for signal 'M3' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:55: The initial value for signal 'M4' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:55: The initial value for signal 'M5' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/IIR_filter.vhd:57: The initial value for signal 'Y' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+
+Inferred memory devices in process
+	in routine IIR_filter line 61 in file
+		'../src/IIR_filter.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     OUTPUT_reg      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|      VOUT_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|      DOUT_reg       | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       EN_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|     VOUT_S_reg      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Warning: Overwriting design file '/home/isa26_2021_2022/Desktop/lab1/syn/IIR_filter.db'. (DDB-24)
+Elaborated 1 design.
+Current design is now 'IIR_filter'.
+1

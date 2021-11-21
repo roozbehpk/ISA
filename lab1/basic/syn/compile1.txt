@@ -1,0 +1,103 @@
+
+Information: There are 66 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'IIR_filter_DW_mult_tc_2'
+  Processing 'IIR_filter_DW_mult_tc_3'
+  Processing 'IIR_filter_DW_mult_tc_0'
+  Processing 'IIR_filter_DW_mult_tc_1'
+  Processing 'IIR_filter_DW01_add_0'
+  Processing 'IIR_filter_DW01_add_1'
+  Processing 'IIR_filter_DW_mult_tc_4'
+  Processing 'IIR_filter_DW01_add_3'
+  Processing 'myregister_N9_1'
+  Processing 'myregister_N9_0'
+  Processing 'reg_N1_1'
+  Processing 'myregister_N8_1'
+  Processing 'myregister_N8_2'
+  Processing 'myregister_N8_3'
+  Processing 'myregister_N8_4'
+  Processing 'myregister_N8_5'
+  Processing 'myregister_N8_6'
+  Processing 'reg_N1_0'
+  Processing 'myregister_N8_7'
+  Processing 'myregister_N8_0'
+  Processing 'IIR_filter'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:08    2933.2      0.00       0.0     179.0                          
+    0:00:08    2933.2      0.00       0.0     179.0                          
+    0:00:08    2933.2      0.00       0.0     179.0                          
+    0:00:08    2933.2      0.00       0.0     179.0                          
+    0:00:08    2933.2      0.00       0.0     179.0                          
+    0:00:12    2169.2      0.00       0.0      38.9                          
+    0:00:12    2169.2      0.00       0.0      38.9                          
+    0:00:12    2169.2      0.00       0.0      38.9                          
+    0:00:12    2169.2      0.00       0.0      38.9                          
+    0:00:12    2169.2      0.00       0.0      38.9                          
+    0:00:12    2174.0      0.00       0.0       0.0                          
+    0:00:12    2174.0      0.00       0.0       0.0                          
+    0:00:12    2174.0      0.00       0.0       0.0                          
+    0:00:12    2174.0      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:12    2174.0      0.00       0.0       0.0                          
+    0:00:12    2174.0      0.00       0.0       0.0                          
+    0:00:12    2170.8      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:12    2170.8      0.00       0.0       0.0                          
+    0:00:12    2170.8      0.00       0.0       0.0                          
+    0:00:12    2170.3      0.00       0.0       0.0                          
+    0:00:12    2169.8      0.00       0.0       0.0                          
+    0:00:12    2169.2      0.00       0.0       0.0                          
+    0:00:12    2168.7      0.00       0.0       0.0                          
+    0:00:12    2168.7      0.00       0.0       0.0                          
+    0:00:12    2168.7      0.00       0.0       0.0                          
+    0:00:12    2168.7      0.00       0.0       0.0                          
+    0:00:13    2162.3      0.00       0.0       0.0                          
+    0:00:13    2162.3      0.00       0.0       0.0                          
+    0:00:13    2162.3      0.00       0.0       0.0                          
+    0:00:13    2162.3      0.00       0.0       0.0                          
+    0:00:13    2162.3      0.00       0.0       0.0                          
+    0:00:13    2162.3      0.00       0.0       0.0                          
+    0:00:13    2162.3      0.00       0.0       0.0                          
+Loading db file '/software/dk/nangate45/synopsys/NangateOpenCellLibrary_typical_ecsm_nowlm.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1

@@ -1,0 +1,123 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : IIR_filter
+Version: O-2018.06-SP4
+Date   : Mon Nov  8 12:49:22 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: REG_COEFF_B2/DATA_OUT_reg[1]
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: REG_DATA_OUT/DATA_OUT_reg[7]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IIR_filter         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  REG_COEFF_B2/DATA_OUT_reg[1]/CK (DFF_X1)                0.00       0.00 r
+  REG_COEFF_B2/DATA_OUT_reg[1]/Q (DFF_X1)                 0.10       0.10 r
+  REG_COEFF_B2/DATA_OUT[1] (myregister_N8_2)              0.00       0.10 r
+  U187/ZN (NOR2_X1)                                       0.03       0.13 f
+  U180/ZN (NAND2_X1)                                      0.04       0.17 r
+  U135/Z (XOR2_X1)                                        0.08       0.25 r
+  mult_87/b[3] (IIR_filter_DW_mult_tc_1)                  0.00       0.25 r
+  mult_87/U165/Z (CLKBUF_X1)                              0.05       0.30 r
+  mult_87/U390/Z (XOR2_X1)                                0.06       0.37 r
+  mult_87/U241/ZN (NAND2_X1)                              0.05       0.42 f
+  mult_87/U407/ZN (OAI22_X1)                              0.07       0.49 r
+  mult_87/U321/ZN (NAND2_X1)                              0.04       0.52 f
+  mult_87/U320/ZN (OAI21_X1)                              0.04       0.57 r
+  mult_87/U319/ZN (INV_X1)                                0.02       0.59 f
+  mult_87/U288/ZN (OAI211_X1)                             0.04       0.63 r
+  mult_87/U318/ZN (OAI221_X1)                             0.04       0.68 f
+  mult_87/U248/ZN (AND2_X1)                               0.04       0.72 f
+  mult_87/U307/ZN (OR2_X1)                                0.05       0.77 f
+  mult_87/U308/ZN (AOI22_X1)                              0.06       0.83 r
+  mult_87/U317/ZN (AND2_X1)                               0.05       0.87 r
+  mult_87/U316/ZN (OAI22_X1)                              0.03       0.90 f
+  mult_87/U324/ZN (INV_X1)                                0.04       0.94 r
+  mult_87/U315/ZN (AND2_X1)                               0.04       0.99 r
+  mult_87/U314/ZN (OAI22_X1)                              0.04       1.02 f
+  mult_87/U164/ZN (AOI21_X2)                              0.06       1.09 r
+  mult_87/U410/ZN (AND2_X1)                               0.06       1.14 r
+  mult_87/U409/ZN (OAI22_X1)                              0.03       1.18 f
+  mult_87/U367/ZN (OR2_X1)                                0.05       1.23 f
+  mult_87/U357/ZN (AOI22_X1)                              0.08       1.31 r
+  mult_87/U336/ZN (XNOR2_X1)                              0.07       1.38 r
+  mult_87/U361/Z (XOR2_X1)                                0.08       1.46 r
+  mult_87/product[11] (IIR_filter_DW_mult_tc_1)           0.00       1.46 r
+  add_1_root_add_90_2/B[4] (IIR_filter_DW01_add_1)        0.00       1.46 r
+  add_1_root_add_90_2/U1_4/S (FA_X1)                      0.13       1.58 f
+  add_1_root_add_90_2/SUM[4] (IIR_filter_DW01_add_1)      0.00       1.58 f
+  add_1_root_add_100_2/B[4] (IIR_filter_DW01_add_0)       0.00       1.58 f
+  add_1_root_add_100_2/U1_4/CO (FA_X1)                    0.11       1.69 f
+  add_1_root_add_100_2/U26/ZN (NAND2_X1)                  0.04       1.73 r
+  add_1_root_add_100_2/U20/ZN (NAND3_X1)                  0.04       1.77 f
+  add_1_root_add_100_2/U21/ZN (XNOR2_X1)                  0.06       1.83 f
+  add_1_root_add_100_2/U1/ZN (XNOR2_X2)                   0.08       1.91 r
+  add_1_root_add_100_2/SUM[6] (IIR_filter_DW01_add_0)     0.00       1.91 r
+  mult_102/a[6] (IIR_filter_DW_mult_tc_4)                 0.00       1.91 r
+  mult_102/U360/ZN (XNOR2_X1)                             0.09       2.00 r
+  mult_102/U348/ZN (OAI22_X1)                             0.04       2.04 f
+  mult_102/U370/ZN (OAI21_X1)                             0.04       2.08 r
+  mult_102/U329/ZN (INV_X1)                               0.02       2.10 f
+  mult_102/U225/ZN (AOI21_X1)                             0.06       2.16 r
+  mult_102/U215/Z (XOR2_X1)                               0.08       2.24 r
+  mult_102/U214/ZN (XNOR2_X1)                             0.07       2.31 r
+  mult_102/U378/ZN (INV_X1)                               0.03       2.33 f
+  mult_102/U355/ZN (AOI21_X1)                             0.05       2.39 r
+  mult_102/U352/ZN (NOR2_X1)                              0.03       2.42 f
+  mult_102/U342/ZN (INV_X1)                               0.04       2.46 r
+  mult_102/U340/ZN (XNOR2_X1)                             0.06       2.52 r
+  mult_102/U336/ZN (OAI221_X1)                            0.06       2.58 f
+  mult_102/product[8] (IIR_filter_DW_mult_tc_4)           0.00       2.58 f
+  U195/ZN (OAI211_X1)                                     0.05       2.63 r
+  U189/ZN (OAI21_X1)                                      0.04       2.68 f
+  U183/ZN (OR2_X1)                                        0.06       2.74 f
+  U186/ZN (AOI22_X1)                                      0.06       2.80 r
+  U193/ZN (INV_X1)                                        0.03       2.83 f
+  U191/ZN (AOI21_X1)                                      0.04       2.87 r
+  U153/ZN (NOR2_X1)                                       0.03       2.91 f
+  U201/ZN (OAI21_X1)                                      0.04       2.95 r
+  U174/ZN (INV_X1)                                        0.02       2.97 f
+  U200/ZN (AOI21_X1)                                      0.06       3.03 r
+  U199/ZN (INV_X1)                                        0.03       3.07 f
+  U188/ZN (AOI21_X1)                                      0.04       3.11 r
+  U198/ZN (AOI21_X1)                                      0.03       3.14 f
+  U197/ZN (OR2_X1)                                        0.06       3.20 f
+  U196/ZN (AOI22_X1)                                      0.06       3.25 r
+  U192/ZN (XNOR2_X1)                                      0.06       3.31 r
+  REG_DATA_OUT/DATA_IN[7] (myregister_N8_1)               0.00       3.31 r
+  REG_DATA_OUT/U20/ZN (INV_X1)                            0.02       3.34 f
+  REG_DATA_OUT/U21/ZN (OAI22_X1)                          0.05       3.38 r
+  REG_DATA_OUT/DATA_OUT_reg[7]/D (DFF_X1)                 0.01       3.39 r
+  data arrival time                                                  3.39
+
+  clock MY_CLK (rise edge)                                3.50       3.50
+  clock network delay (ideal)                             0.00       3.50
+  clock uncertainty                                      -0.07       3.43
+  REG_DATA_OUT/DATA_OUT_reg[7]/CK (DFF_X1)                0.00       3.43 r
+  library setup time                                     -0.04       3.39
+  data required time                                                 3.39
+  --------------------------------------------------------------------------
+  data required time                                                 3.39
+  data arrival time                                                 -3.39
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1
