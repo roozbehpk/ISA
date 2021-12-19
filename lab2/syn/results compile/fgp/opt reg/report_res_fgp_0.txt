@@ -1,0 +1,13 @@
+ 
+****************************************
+Report : resources
+Design : FPmul
+Version: O-2018.06-SP4
+Date   : Sat Dec 18 18:40:42 2021
+****************************************
+
+
+No resource sharing information to report.
+
+No implementations to report
+1
