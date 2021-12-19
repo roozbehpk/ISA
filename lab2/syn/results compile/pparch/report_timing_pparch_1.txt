@@ -1,0 +1,94 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : FPmul
+Version: O-2018.06-SP4
+Date   : Fri Dec 10 22:51:28 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: I1/A_SIG_reg[3]
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: I2/SIG_in_reg[27]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FPmul              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock MY_CLK (rise edge)                 0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  I1/A_SIG_reg[3]/CK (DFF_X1)              0.00       0.00 r
+  I1/A_SIG_reg[3]/Q (DFF_X1)               0.09       0.09 r
+  U5554/ZN (XNOR2_X1)                      0.06       0.15 r
+  U7623/ZN (NAND2_X1)                      0.04       0.19 f
+  U7657/ZN (OAI22_X1)                      0.06       0.25 r
+  U5472/ZN (XNOR2_X1)                      0.04       0.30 f
+  U7609/ZN (OAI21_X1)                      0.04       0.34 r
+  U7661/ZN (OAI21_X1)                      0.03       0.38 f
+  U5151/ZN (OAI33_X1)                      0.08       0.46 r
+  U7608/ZN (INV_X1)                        0.03       0.48 f
+  U7610/ZN (OAI21_X1)                      0.04       0.53 r
+  U7624/ZN (OAI21_X1)                      0.03       0.56 f
+  U7634/ZN (OAI21_X1)                      0.03       0.59 r
+  U7595/ZN (INV_X1)                        0.02       0.62 f
+  U5310/ZN (OR2_X1)                        0.06       0.68 f
+  U7656/ZN (OAI21_X1)                      0.04       0.72 r
+  U5374/ZN (NAND3_X1)                      0.03       0.75 f
+  U5421/ZN (AND2_X1)                       0.04       0.79 f
+  U7618/ZN (OAI221_X1)                     0.04       0.83 r
+  U5352/ZN (NAND3_X1)                      0.04       0.87 f
+  U5351/ZN (NAND2_X1)                      0.03       0.90 r
+  U7615/ZN (AOI22_X1)                      0.03       0.92 f
+  U5390/ZN (NOR2_X1)                       0.04       0.96 r
+  U7658/ZN (OAI222_X1)                     0.05       1.01 f
+  U7644/ZN (AOI22_X1)                      0.05       1.06 r
+  U7627/ZN (OAI211_X1)                     0.04       1.09 f
+  U7617/ZN (AOI22_X1)                      0.05       1.14 r
+  U7606/ZN (NAND2_X1)                      0.03       1.17 f
+  U5377/ZN (NAND2_X1)                      0.03       1.20 r
+  U7655/ZN (AOI21_X1)                      0.03       1.23 f
+  U5469/ZN (OAI21_X1)                      0.04       1.28 r
+  U7659/ZN (OAI211_X1)                     0.04       1.32 f
+  U5419/ZN (NAND2_X1)                      0.03       1.35 r
+  U7643/ZN (AOI221_X1)                     0.03       1.38 f
+  U5441/ZN (OAI21_X1)                      0.04       1.43 r
+  U7626/ZN (OAI211_X1)                     0.04       1.47 f
+  U5355/ZN (AND2_X1)                       0.04       1.51 f
+  U5465/ZN (OAI21_X1)                      0.04       1.55 r
+  U5463/ZN (NAND2_X1)                      0.03       1.58 f
+  U5383/ZN (NAND3_X1)                      0.03       1.61 r
+  U5403/ZN (AND2_X1)                       0.04       1.65 r
+  U7660/ZN (OAI211_X1)                     0.04       1.69 f
+  U5359/ZN (NAND2_X1)                      0.03       1.72 r
+  U7653/ZN (OAI21_X1)                      0.03       1.75 f
+  U7651/ZN (INV_X1)                        0.03       1.78 r
+  U7650/ZN (AOI21_X1)                      0.03       1.80 f
+  U5464/ZN (XNOR2_X1)                      0.05       1.86 f
+  I2/SIG_in_reg[27]/D (DFF_X1)             0.01       1.87 f
+  data arrival time                                   1.87
+
+  clock MY_CLK (rise edge)                 1.98       1.98
+  clock network delay (ideal)              0.00       1.98
+  clock uncertainty                       -0.07       1.91
+  I2/SIG_in_reg[27]/CK (DFF_X1)            0.00       1.91 r
+  library setup time                      -0.04       1.87
+  data required time                                  1.87
+  -----------------------------------------------------------
+  data required time                                  1.87
+  data arrival time                                  -1.87
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+1
